@@ -8,7 +8,7 @@ for (let i = 0; i < numberOfDrums; i++) {
             animationBtn(this.innerHTML);
         });
 }
-document.addEventListener("keypress", function (event) {
+document.addEventListener("keydown", function (event) {
     makeSound(event.key);
     animationBtn(event.key);
 });
